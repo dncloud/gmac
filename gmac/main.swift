@@ -30,12 +30,12 @@ import Foundation
 let doc : String = "gmap app\n" +
     "\n" +
     "Usage:\n" +
-    "  gmap -m MODEL -r\n" +
-    "  gmap -m MODEL -w KEYMAP\n" +
-    "  gmap (-t | --table)\n" +
-    "  gmap (-d | --donate)\n" +
-    "  gmap (-h | --help)\n" +
-    "  gmap --version\n" +
+    "  gmac -m MODEL -r\n" +
+    "  gmac -m MODEL -w KEYMAP\n" +
+    "  gmac (-t | --table)\n" +
+    "  gmac (-d | --donate)\n" +
+    "  gmac (-h | --help)\n" +
+    "  gmac --version\n" +
     "\n" +
     "Options:\n" +
     "  -m --model    Logitech G510 and G710 are currenty supported.\n" +
@@ -46,7 +46,7 @@ let doc : String = "gmap app\n" +
     "  -h --help     Show this screen\n" +
     "\n" +
     "Example:\n" +
-    "  gmap -m G710 -w 0x3a,0x3b,0x3b,0x3d,0x0e,0x13\n" +
+    "  gmac -m G710 -w 0x3a,0x3b,0x3b,0x3d,0x0e,0x13\n" +
     "  writes G1=F1, G2=F2, G3=F3, G4=F4, G5=K, G6=P\n" +
     "\n" +
     "Keymap:\n" +
