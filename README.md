@@ -7,12 +7,12 @@ gmac writes via USB a new keymap for your G buttons directly on your Keyboard un
 - Logitech G710+
 
 ### Usage
-    gmap -m MODEL -r
-    gmap -m MODEL -w KEYMAP
-    gmap (-t | --table)
-    gmap (-d | --donate)
-    gmap (-h | --help)
-    gmap --version
+    gmac -m MODEL -r
+    gmac -m MODEL -w KEYMAP
+    gmac (-t | --table)
+    gmac (-d | --donate)
+    gmac (-h | --help)
+    gmac --version
 
 ### Options
     -m --model    Logitech G510 and G710 are currenty supported.
@@ -23,7 +23,7 @@ gmac writes via USB a new keymap for your G buttons directly on your Keyboard un
     -h --help     Show this screen
 
 ### Example
-    gmap -m G710 -w 0x3a,0x3b,0x3b,0x3d,0x0e,0x13
+    gmac -m G710 -w 0x3a,0x3b,0x3b,0x3d,0x0e,0x13
     writes G1=F1, G2=F2, G3=F3, G4=F4, G5=K G6=P
 
 ### Keymap
