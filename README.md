@@ -31,11 +31,6 @@ gmac writes via USB a new keymap for your G buttons directly on your Keyboard un
     G510 format: 0xff,0xff,0xff,0xff,0xff,0xff,0xff,0xff,0xff,
                  0xff,0xff,0xff,0xff,0xff,0xff,0xff,0xff,0xff
 
-### Donation
-To help make more projects like this, i need more coffee.
-
-    Bitcoin: 1BDsQVVLqbm7bwRqjA7qk4BPyUFp82cAAp
-
 ### License
 
 Copyright (c) 2016 Oliver Cermann, MIT License
